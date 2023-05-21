@@ -1,0 +1,6 @@
+.links{
+    @apply underline  decoration-1 font-light decoration-gray-500 underline-offset-1 hover:opacity-75;
+}
+.linkhead{
+    @apply uppercase font-bold tracking-wider pb-1;
+}
