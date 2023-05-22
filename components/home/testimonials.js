@@ -13,7 +13,7 @@ const Testimonials = () => {
       <div className=" px-20 h-fit -mt-12  py-8">
         <Splide
           className=""
-          renderControls={() => <div class="splide__arrows"></div>}
+         
           options={{
             type: "loop",
             perPage: 3,
