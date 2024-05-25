@@ -185,7 +185,7 @@ const MyQuote = () => {
           className=" hover:w-72 cursor-pointer transition-all duration-500 absolute  left-[50%]  -bottom-6 translate-x-[-50%] bg-green-800  py-3 rounded-full w-56 text-white font-bold
          font-sans"
         >
-          <p className="text-center">Get My Quote</p>
+          <Link href="https://lendingclub-clone.vercel.app/loanType" className="text-center">Get My Quote</Link>
         </div>
       </div>
     </div>
