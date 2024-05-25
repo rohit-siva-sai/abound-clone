@@ -6,6 +6,7 @@ import "react-rangeslider/lib/index.css";
 import { ImPencil } from "react-icons/im";
 import { BiRupee,BiTimer } from "react-icons/bi";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const MyQuote = () => {
   const [amount, setAmount] = useState(5000);
@@ -181,12 +182,14 @@ const MyQuote = () => {
             </p>
           </div>
         </div>
+        <Link href={"https://lendingclub-clone.vercel.app/loanType"}  >
         <div
           className=" hover:w-72 cursor-pointer transition-all duration-500 absolute  left-[50%]  -bottom-6 translate-x-[-50%] bg-green-800  py-3 rounded-full w-56 text-white font-bold
          font-sans"
         >
           <p className="text-center">Get My Quote</p>
         </div>
+        </Link>
       </div>
     </div>
   );

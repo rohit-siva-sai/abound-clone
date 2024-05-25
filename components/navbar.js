@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="sticky top-0 z-40" >
       <div className="bg-green-800 py-2 flex justify-evenly items-center ">
         <picture>
           <img

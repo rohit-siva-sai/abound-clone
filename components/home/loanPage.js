@@ -6,7 +6,7 @@ import { AiFillStar } from "react-icons/ai";
 const LoanPage = () => {
   return (
     <div className="pb-10" >
-      <div className="grid grid-cols-2 py-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 py-14">
         <div className="w-3/4  flex flex-col items-start pl-20 mx-auto">
           <p className="text-6xl text-gray-800 decoration-[#ac40bb] underline underline-offset-[14px]">
             Loans made
